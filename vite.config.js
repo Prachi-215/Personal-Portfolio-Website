@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:"/Personal-Portfolio-Website/",
+  build: {
+    outDir: 'docs',
+  },
   css: {
     modules: {
       localsConvention: "camelCase"
