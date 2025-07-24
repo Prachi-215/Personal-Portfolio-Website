@@ -1,0 +1,19 @@
+@import "./vars.css";
+.App{
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+  background-image: url('/assets/pixel-art.jpeg');
+  background-size: cover;
+  image-rendering: pixelated;
+
+
+ backdrop-filter: blur(10px);
+
+
+
+
+  
+}

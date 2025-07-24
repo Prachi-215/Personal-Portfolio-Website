@@ -1,0 +1,28 @@
+[
+  {
+    "role": "Data Structures and Algorithms",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "Present",
+    "experiences": ["Currently working on DSA in Java through a program offered by AICPE"],
+    "imageSrc": "history/dsa.png"
+  },
+  {
+    "role": "Python",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "Present",
+    "experiences": ["Exploring advanced Python libraries for data processing and application development"],
+    "imageSrc": "history/advpython.png"
+  },
+  {
+    "role": "Peer Tutor",
+    "organisation": "",
+    "startDate": "",
+    "endDate": "During summer",
+    "experiences": [
+      "Taught C and C++ to students during summer break covering core concepts, syntax, and basic problem-solving techniques."
+    ],
+    "imageSrc": "history/tutor.png"
+  }
+]
