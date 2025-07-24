@@ -1,9 +1,10 @@
 import React from 'react';
 
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
-import history from "../../data/history.json"
+import { skills} from "../../data/skills";
+import{ history } from "../../data/history"
 import { getImageUrl } from '../../utils';
+
 
 export const Experience = () => {
     return (

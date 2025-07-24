@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-import { ContactForm } from "../ContactForm/ContactForm"; // Add this if you're using a ContactForm component
+import { ContactForm } from "../ContactForm/ContactForm";
+import heroImage from '../../assets/hero/heroImage.png'; // Add this if you're using a ContactForm component
 
 export const Hero = () => {
   const [showForm, setShowForm] = useState(false);
@@ -21,7 +22,7 @@ export const Hero = () => {
           <button onClick={() => setShowForm(true)} className={styles.contactBtn}>Contact Me</button> 
         </div>
         <img
-          src="/hero/heroImage.png"
+          src={heroImage}
           alt="Hero image of me"
           className={styles.heroImg}
         />
